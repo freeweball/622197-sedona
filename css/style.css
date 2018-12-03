@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	font-family: "PTSanas", sans-serif;
+	font-size: 14px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.main-nav {
+	font-weight: bold;
+	line-height: 26px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+	color: #81b3d2;
+	background-color: #ffffff;
+
+}
+.site-navigation a:active {
+	color: #766357;
+	background-color: #ffffff;
+
+}
+
+.promo {
+	background-image: url("../img/intro-welcome.svg");
+	background-repeat: no-repeat;
+}
+.promo p {
+	font-size: 21px;
+	color: #000000;
+	background-color: #ffffff;
+
+}
+.advantage {
+	line-height: 26px;
+	color: #333333;
+	background-color: #ffffff;
+
+}
+
+.appointment h2{
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	background-color: #ffffff;
+
+}
+
+.appointment p {
+	line-height: 24px;
+	color: #333333;
+	background-color: #ffffff;
+
+}
+
+.appointment p ~ h2{
+	background-color: #766357;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+	font-size: 21px;
+	line-height: 26px;
+	width: 568px;
+	height: 86px;
+}
+
+.appointment p ~ h2:hover{
+	background-color: #503e33;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.appointment p ~ h2:active{
+	color: #ffffff;	
+	background-color: #503e33;
+
+}
+
+.search-hotel-form input[type="text"]{
+	color: #0000000;
+	line-height: 26px;
+	background-color: #f2f2f2;
+	border: 0px;
+}
+
+.search-hotel-form input[type="text"]:hover{
+	background-color: #ebebeb;
+	border: 4px solid #000000:;
+}
+.search-hotel-form input[type="text"]:focus{
+	background-color: #.search-hotel-form input[type="text"]:hover{
+	border: 4px;
+};
+
+.search-hotel-form label{
+	color: #000000;
+	background-color: #ffffff;
+	line-height: 26px;
+}
+
+p .button{
+	background-color: #23c4ee;
+	border: 0px:;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+footer a{
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	font-style: bold;
+}
+
+footer li{
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+}
+
+footer .copywrite{
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;	line-height: 26px;
+}
+
+.copywrite a{
+	background-image: url("../img/logo-htmlacademy.svg");
+	background-repeat: no-repeat;
+	background-position: 0;
+}
