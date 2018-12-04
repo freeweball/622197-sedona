@@ -71,14 +71,14 @@ a {
 	background-color: #ffffff;
 }
 
-.questions {
+.appointment-title {
 	text-align: center;
 	line-height: 24px;
 	color: #333333;
 	background-color: #ffffff;
 }
 
-.appointment .appointment-search {
+.appointment-search a {
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
@@ -86,13 +86,37 @@ a {
 	background-color: #766357;
 }
 
+.appointment-search a:hover,
+.appointment-search a:focus {
+	color: #ffffff;
+	background-color: #604e43;
+}
+
+.appointment-search a:active {
+	color: #928a85;
+	background-color: #503e33;
+}
+
 .search-hotel-form input[type="text"] {
 	line-height: 26px;
 	font-weight: 700;
+	text-transform: uppercase;
+	border: 0px;
 	color: #000000;
 	background-color: #f2f2f2;
-	border: 0px;
-	text-transform: uppercase;
+}
+
+.search-hotel-form input:hover
+.search-hotel-form input:active {
+ 	color: #000000;
+ 	background-color: #ebebeb;
+}
+
+.search-hotel-form input:focus {
+	outline: none;
+	border: 2px solid #e5e5e5;
+	color: #000000;
+	background-color: #ffffff;
 }
 
 .search-hotel-form label {
@@ -104,15 +128,26 @@ a {
 }
 
 button {
-	font: inherit;
 	text-align: center;
 	vertical-align: middle;
 	border: none;
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
-	background-color: #23c4ee;
+	background-color: #81b3d2
 }
+
+.button-search:hover,
+.button-search:focus {
+	color: #ffffff;
+	background-color: #669ec0;
+}
+
+.button-search:active {
+	color: #94b9d2;
+	background-color: #5496bd;
+}
+
 
 footer a {
 	font-size: 21px;
@@ -146,7 +181,7 @@ footer .copywrite {
 	background-position: 0;
 }
 
-
+/* Стилизация Catalog.html*/
 
 .hotel {
 	list-style: none;
@@ -156,11 +191,22 @@ footer .copywrite {
 	background-color: #000000;
 }
 
-.content h2 {
+.name-hotel a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #000000;
+	background-color: #ffffff;
+}
+
+.name-hotel a:hover,
+.name-hotel a:focus {
+	color: #81b3d2;
+	background-color: #ffffff;
+}
+
+.name-hotel a:active {
+	color: #cacaca;
 	background-color: #ffffff;
 }
 
@@ -180,12 +226,34 @@ footer .copywrite {
 	background-color: #81b3d2;
 }
 
+.content .button-info:hover,
+.content .button-info:focus {
+	color: #ffffff;
+	background-color: #669ec0;
+}
+
+.content .button-info:active {
+	color:#94b9d2;
+	background-color: #5496bd;
+}
+
 .content .button-reserve {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
 	background-color: #766357;
+}
+
+.content .button-reserve:hover,
+.content .button-reserve:focus {
+	color: #ffffff;
+	background-color: #604e43;
+}
+
+.content .button-reserve:active {
+	color: #928a85;
+	background-color: #503e33;
 }
 
 .hotel .hotel-rating-value {
