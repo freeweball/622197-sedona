@@ -34,6 +34,11 @@ a {
 	background-color: #ffffff;
 }
 
+.site-navigation .current-item {
+	color: #766357;
+	background-color: #ffffff;
+}
+
 .promo {
 	background-color: #ffffff;
 	background-image: url("../img/background-photo.jpg");
@@ -139,4 +144,53 @@ footer .copywrite {
 	background-image: url("img/logo-htmlacademy.svg");
 	background-repeat: no-repeat;
 	background-position: 0;
+}
+
+
+
+.hotel {
+	list-style: none;
+}
+
+.hotel img {
+	background-color: #000000;
+}
+
+.content h2 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.content .type,
+.content .price {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.content .button-info {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+.content .button-reserve {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #766357;
+}
+
+.hotel .hotel-rating-value {
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666;
+	background-color: #f2f2f2;
 }
