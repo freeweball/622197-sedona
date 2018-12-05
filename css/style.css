@@ -149,7 +149,7 @@ a {
 }
 
 
-.main-footer a {
+.heshtag {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -157,16 +157,9 @@ a {
 	background-color: #ffffff;
 }
 
-.main-footer li {
+.social-button a {
 	color: #ffffff;
 	background-color: #000000;
-}
-
-.copywrite {
-	text-align: center;
-	color: #000000;
-	background-color: #ffffff;	
-	line-height: 26px;
 }
 
 .copywrite span {
