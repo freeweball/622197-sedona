@@ -149,7 +149,7 @@ a {
 }
 
 
-footer a {
+.main-footer a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -157,12 +157,12 @@ footer a {
 	background-color: #ffffff;
 }
 
-footer li {
+.main-footer li {
 	color: #ffffff;
 	background-color: #000000;
 }
 
-footer .copywrite {
+.copywrite {
 	text-align: center;
 	color: #000000;
 	background-color: #ffffff;	
