@@ -97,7 +97,7 @@ a {
 	background-color: #503e33;
 }
 
-.search-hotel-form input[type="text"] {
+.search-hotel-form {
 	line-height: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -106,7 +106,7 @@ a {
 	background-color: #f2f2f2;
 }
 
-.search-hotel-form input:hover
+.search-hotel-form input:hover,
 .search-hotel-form input:active {
  	color: #000000;
  	background-color: #ebebeb;
