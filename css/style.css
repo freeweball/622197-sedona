@@ -210,15 +210,15 @@ footer .copywrite {
 	background-color: #ffffff;
 }
 
-.content .type,
-.content .price {
+.type,
+.price {
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
 	background-color: #ffffff;
 }
 
-.content .button-info {
+.button-info {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 700;
@@ -226,18 +226,18 @@ footer .copywrite {
 	background-color: #81b3d2;
 }
 
-.content .button-info:hover,
-.content .button-info:focus {
+.button-info:hover,
+.button-info:focus {
 	color: #ffffff;
 	background-color: #669ec0;
 }
 
-.content .button-info:active {
+.button-info:active {
 	color:#94b9d2;
 	background-color: #5496bd;
 }
 
-.content .button-reserve {
+.button-reserve {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 700;
@@ -245,18 +245,18 @@ footer .copywrite {
 	background-color: #766357;
 }
 
-.content .button-reserve:hover,
-.content .button-reserve:focus {
+.button-reserve:hover,
+.button-reserve:focus {
 	color: #ffffff;
 	background-color: #604e43;
 }
 
-.content .button-reserve:active {
+.button-reserve:active {
 	color: #928a85;
 	background-color: #503e33;
 }
 
-.hotel .hotel-rating-value {
+.hotel-rating-value {
 	font-size: 14px;
 	line-height: 21px;
 	color: #666666;
