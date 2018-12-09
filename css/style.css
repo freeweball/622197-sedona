@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: "PTSanas", Arial, sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
 	color: #333333;
 	background-color: #ffffff;
@@ -10,6 +10,14 @@ body {
 a {
 	text-decoration: none;
 	color: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .site-navigation {
@@ -38,15 +46,16 @@ a {
 	color: #766357;
 	background-color: #ffffff;
 }
-
-.promo {
+/*
+.promo{
 	background-color: #ffffff;
 	background-image: url("../img/background-photo.jpg");
-	background-position: center;
+	background-position: 50% 100%;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
-
-.promo p {
+*/
+.promo .title {
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
@@ -55,7 +64,7 @@ a {
 	background-color: #ffffff;
 }
 
-.advantage {
+.promo .resons {
 	text-align: center;
 	line-height: 26px;
 	color: #333333;
@@ -78,7 +87,7 @@ a {
 	background-color: #ffffff;
 }
 
-.appointment-search a {
+.appointment-search a{
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
@@ -254,4 +263,124 @@ a {
 	line-height: 21px;
 	color: #666666;
 	background-color: #f2f2f2;
+}
+
+/* Сеточные стили */
+
+.container {
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	width: 1200px;
+	outline: 1px solid green;
+	padding: 0 40px;
+}
+
+.main-nav {
+	outline: 1px solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-header-logo{
+	outline: 1px solid red;
+	position: absolute;
+	order: 3;
+	align-self: center;
+	width: 140px;
+	height: 72px;
+}	
+
+.site-navigation {
+	outline: 1px solid yellow;
+	list-style: none;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+.site-navigation li{
+	outline: 1px dashed black;
+	padding-top: 14px;
+	padding-bottom: 20px;
+}
+
+.site-navigation li:nth-child(1){
+	outline: 1px dashed green;
+	padding-left: 72px;
+	margin-right: 0;
+}
+
+.site-navigation li:nth-child(2){
+outline: 1px dashed black;
+margin-left:;
+}
+
+.site-navigation li:nth-child(3){
+	outline: 1px dashed black;
+	padding-right: 102px;
+}
+
+.site-navigation li:nth-child(4){
+	outline: 1px dashed black;
+	margin-right: 72px;
+}
+
+
+
+
+
+.promo {
+	outline: 1px solid grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 715px;
+}
+
+.promo img {
+	outline: 1px solid blue;
+	margin-top: 69px;
+}
+
+.promo .title {
+	outline: 1px solid blue;
+	margin-top: 138px;
+	margin-bottom: 0;
+}
+
+.promo .resons {
+	outline: 1px solid blue;
+	margin-top: 27px;
+}
+
+.advantage {
+	outline: 1px solid red;
+	min-height: 1100px;
+}
+
+.appointment {
+	display: flex;
+	flex-direction: column;
+}
+
+.appointment .title {
+	outline: 1px solid red;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.appointment-title {
+	outline: 1px solid red;
+	margin-top: 23px;
+}
+
+.appointment-search {
+	outline: 1px solid blue;
+	margin: 35px 317px 0px 317px;
+	padding-bottom: 27px;
+	padding-top: 20px;
+	color: red;
 }
