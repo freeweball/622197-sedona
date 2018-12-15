@@ -1,7 +1,7 @@
-/* {
+* {
 	outline: 1px dashed red;
 }
-*/
+
 body {
 	margin: 0;
 	font-family: 'PT Sans', Arial, sans-serif;
@@ -53,7 +53,7 @@ a {
 	background-color: #ffffff;
 }
 
-.promo{
+.promo {
 	background-color: #ffffff;
 	background-image: url("../img/background-photo.jpg");
 	background-position: 50% 96%;
@@ -93,7 +93,7 @@ a {
 	background-color: #ffffff;
 }
 
-.appointment-search a{
+.appointment-search a {
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
@@ -112,7 +112,7 @@ a {
 	background-color: #503e33;
 }
 
-.search-hotel-form input{
+.search-hotel-form input {
 	line-height: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -139,7 +139,6 @@ a {
 	font-weight: 700;
 	color: #000000;
 	background-color: #ffffff;
-	
 }
 
 .button-search {
@@ -228,7 +227,6 @@ a {
 
 .button-info {
 	font-size: 14px;
-	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
 	background-color: #81b3d2;
@@ -247,7 +245,6 @@ a {
 
 .button-reserve {
 	font-size: 14px;
-	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
 	background-color: #766357;
@@ -285,7 +282,6 @@ a {
 	background-color: #ffffff;
 	margin: 0 auto;
 	padding: 0 0;
-
 }
 
 .main-nav {
@@ -311,19 +307,19 @@ a {
 	margin: 0;
 }
 
-.site-navigation li{
+.site-navigation li {
 	margin-top: 13px;
 	width: 240px;
 	display: block;
 	padding: 0;
 }
 
-.site-navigation li:nth-child(3){
+.site-navigation li:nth-child(3) {
 	margin-left: 96px;
 	text-align: right;
 }
 
-.site-navigation li:nth-child(4){
+.site-navigation li:nth-child(4) {
 	text-align: right;
 }
 
@@ -344,7 +340,6 @@ a {
 .promo .title {
 	margin-top: 139px;
 	margin-bottom: 0;
-
 }
 
 .promo .resons {
@@ -421,9 +416,6 @@ a {
 	justify-content: space-between;
 }
 
-.heshtag {
-}
-
 .social-icons-list {
 	list-style: none;
 	display: flex;
@@ -432,9 +424,6 @@ a {
 
 .copywrite {
 	display: flex;
-}
-
-.copywrite span {
 }
 
 /* Сеточные стили catalog.html */
@@ -497,26 +486,23 @@ a {
 }
 
 .content-info {
-	margin-right: 6px;
+	margin-right: 8px;
 }
 
 .button-info {
-	height: 27px;
-	width: 110px;
-	background-color: #81b3d2;
+	display: inline-block;
 	text-align: center;
-	margin-top: 16px;
+	vertical-align: middle;
+	margin-top: 13px;
+	padding: 5px 16px;
 }
 
 .button-reserve {
-	width: 142px;
-	height: 27px;
-	background-color: #766357;
-	text-align: center;
-	margin-top: 16px;
 	display: inline-block;
+	text-align: center;
 	vertical-align: middle;
-
+	padding: 5px 16px;
+	margin-top: 13px
 }
 
 .rating {
@@ -527,8 +513,10 @@ a {
 
 .hotel-rating-value {
 	display: inline-block;
-	margin-top: 96px;
-	padding-right: 12px;
+	margin-top: 91px;
+	padding: 6px 12px 4px 15px;
+	font: inherit;
+	vertical-align: middle;
 }
 
 .main-footer {
@@ -540,9 +528,9 @@ a {
 }
 
 .heshtag {
-	display: block;
 	width: 400px;
 	margin-top: 47px;
+	margin-left: 8px;
 	text-align: center;
 }
 
@@ -550,13 +538,16 @@ a {
 	width: 400px;
 	display: flex;
 	justify-content: center;
-
 }
 
 .copywrite {
-	width: 400px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	width: 400px;
+	text-align: right;
 }
 
+.copywrite a {
+	margin-right: 5px;
+}
