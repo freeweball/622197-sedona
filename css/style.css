@@ -56,7 +56,7 @@ a {
 .intro {
 	background-color: #ffffff;
 	background-image: url("../img/background-photo.jpg");
-	background-position: 50% 96%;
+	background-position: 100% 27%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -281,9 +281,6 @@ a {
 	margin: 0;
 }
 
-
-
-
 .wrapper {
 	width: 1056px;
 	background-color: #ffffff;
@@ -354,11 +351,14 @@ a {
 }
 
 .promo .title {
-	min-height: 80px;
+	min-height: 60px;
+	margin: 0;
+	padding: 0;
 }
 
 .promo .resons {
 	margin: 0;
+	padding-top: 19px;
 }
 
 .advantage {
@@ -391,6 +391,7 @@ a {
 
 .modal {
 	background-color: #ffffff;
+	min-height: 557px
 }
 
 .appointment-search {
@@ -412,32 +413,65 @@ a {
 
 .search-item {
 	margin: 0 0 30px 0;
-}
-
-.search-item-bottom {
-	float: left;
-	margin-top: 6px;
+	display: flex;
 }
 
 .search-item label {
 	display: block;
-	float: left;
 	width: 92px;
 	padding: 5px 0 5px 0;
 	margin-right: 22px;
-}
-.search-item-bottom label {
-	display: block;
-	float: left;
-	width: 92px;
-	padding: 5px 0 5px 0;
 }
 
 .search-item input {
 	height: 35px;
 	width: 342px;
+	padding-left: 11px;
 }
 
+.search-wrapper {
+	display: flex;
+	justify-content: space-between;
+	height: 37px;
+	margin-bottom: 56px;
+}
+
+.search-item-bottom {
+	display: flex;
+	margin: 0;
+}
+
+.search-item-bottom label {
+	display: block;
+	float: left;
+	width: 93px;
+	padding: 5px 0 5px 0;
+}
+
+.search-item-bottom input {
+	height: 35px;
+	width: 113px;
+	text-align: center;
+}
+
+.search-item-bottom:nth-child(1) label {
+	width: 111px;
+}
+
+.search-item-bottom:nth-child(2) label {
+	box-sizing: border-box;
+	padding-left: 29px;
+}
+
+input::-webkit-input-placeholder { 
+	color: #000000;
+}
+
+.button-search {
+	width: 458px;
+	height: 58px;
+	text-transform: uppercase;
+}
 
 /* Сеточные стили catalog.html */
 
