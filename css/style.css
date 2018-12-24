@@ -1,6 +1,4 @@
-* {
-	outline: 1px dashed blue;
-}
+
 body {
 	margin: 0;
 	font-family: 'PT Sans', Arial, sans-serif;
@@ -174,7 +172,6 @@ input[type="radio"].visually-hidden {
 	color: #94b9d2;
 	background-color: #5496bd;
 }
-
 
 .heshtag {
 	font-size: 21px;
@@ -394,13 +391,26 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 }
 
+.item-product {
+	min-height: 330px;
+}
+
+.item-product .advantage-item-title {
+	width: 120px;
+	margin-top: 47px;
+}
+
+.item-product .number {
+	margin-top: 26px;
+	
+}
+
 .advantage-item-image {
 	width: 75px;
 	height: 72px;
 	margin-top: 60px;
+	margin-bottom: 0px;
 }
-
-
 
 .advantage-item-title {
 	color: #000000;
@@ -464,29 +474,54 @@ input[type="radio"].visually-hidden {
 	background-position: 100% 50%;
 }
 
-
 .item-second-line {
+	background-color: #81b3d2;
+	color: #ffffff;
 	width: 100%;
+	padding-left: 800px;
+	position: relative;
 }
 
+.item-second-line .advantage-item-title {
+	color: #ffffff;
+	width: 160px;
+	line-height: 21px;
+	font-size: 21px;
+	font-weight: 700;
+	margin-top: 48px;
+	margin-bottom: 0;
+}
 
+.item-second-line .number {
+	margin-top: 24px;
+	margin-bottom: 0;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
 
+}
 
+.item-second-line .item-content {
+	color: #ffffff;
+	width: 308px;
+	margin-top: 22px;
+	font-size: 14px
+	line-height: 21px;
+	font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.item-second-line:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 100%;
+	background-image: url("../img/second-line.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
 
 .appointment {
 	background-color: #ffffff;
