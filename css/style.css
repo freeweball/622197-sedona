@@ -71,7 +71,7 @@ input[type="radio"].visually-hidden {
 .intro {
 	background-color: #ffffff;
 	background-image: url("../img/background-photo.jpg");
-	background-position: 100% 27%;
+	background-position: 100% 22%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -92,7 +92,7 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 
-.appointment h2 {
+.appointment .title {
 	text-align: center;
 	font-size: 30px;
 	line-height: 36px;
@@ -108,21 +108,20 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 
-.appointment-search a {
+.modal .appointment-search {
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
-	background-color: #766357;
 }
 
-.appointment-search a:hover,
-.appointment-search a:focus {
+.modal .appointment-search:hover,
+.modal .appointment-search:focus {
 	color: #ffffff;
 	background-color: #604e43;
 }
 
-.appointment-search a:active {
+.modal .appointment-search:active {
 	color: #928a85;
 	background-color: #503e33;
 }
@@ -285,10 +284,11 @@ input[type="radio"].visually-hidden {
 /* Сеточные стили index.html*/
 
 .container {
-	margin: 0 auto;
-	background-color: #f2f2f2;
 	width: 1200px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
 	box-shadow: 0 0 15px 5px #dbdbdb;
+	position: relative;
 }
 
 .main-header {
@@ -348,7 +348,7 @@ input[type="radio"].visually-hidden {
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	min-height: 567px;
+	min-height: 508px;
 }
 
 .intro img {
@@ -359,7 +359,7 @@ input[type="radio"].visually-hidden {
 
 .promo {
 	background-color: #ffffff;
-	min-height: 155px;
+	min-height: 216px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -367,15 +367,15 @@ input[type="radio"].visually-hidden {
 
 .promo .title {
 	width: 575px;
-	min-height: 60px;
-	margin: 0;
+	margin-top: 60px;
+	margin-bottom: 0;
 	padding: 0;
 }
 
 .promo .resons {
 	width: 575px;
-	margin: 0;
-	padding-top: 19px;
+	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .advantage-recomendation {
@@ -599,25 +599,37 @@ input[type="radio"].visually-hidden {
 }
 
 .modal .appointment-search {
-	margin: 0 auto;
-	padding: 21px 0 30px 0;
 	width: 568px;
-	display: block;
+	min-height: 86px;
 	background-color: #766357;
 	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.map {
+	background-image: url(../img/map.jpg);
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 593px;
 }
 
 .search-hotel-form {
+	background-color: #ffffff;
 	width: 568px;
 	min-height: 395px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	padding: 56px;
+	padding: 56px;		
+
 }
 
 .search-item {
 	margin: 0 0 30px 0;
 	display: flex;
+position: relative;
 }
 
 .search-item label {
@@ -784,31 +796,83 @@ input::-webkit-input-placeholder {
 }
 
 .main-footer {
-	margin: 0;
+	width: 1200px;
+	min-height: 120px;
 	background-color: #ffffff;
+	opacity: 0.9;
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 .heshtag {
-	width: 400px;
-	margin-top: 47px;
-	margin-left: 8px;
-	text-align: center;
+	width: 240px;
+	box-sizing: border-box;
+	margin-left: 72px;
+	margin-right: 88px;
+	padding-left: 61px;
 }
 
 .social-icons-list {
+	width: 400px;	
+	box-sizing: border-box;
+	padding-left: 124px;
+	padding-right: 124px;
 	list-style: none;
-	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social-button {
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+.social-button:hover,
+.social-button:focus {
+	background-color: #669ec0;
+}
+
+.social-button:active {
+	background-color: #5496bd;
+}
+
+.social-button:active path{
+	fill: #88b6d1;
 }
 
 .copywrite {
-	width: 400px;
+	width: 240px;
+	margin-right: 72px;
+	margin-left: 88px;
+	display: flex;
+	align-items: center;
 }
 
-.copywrite a {
-	margin-right: 5px;
+.copywrite span {
+	margin-left: 14px;
+	margin-right: 0;
+}
+
+.copywrite svg {
+	margin-left: 9px;
+	margin-right: 0px;
+}
+
+.copywrite svg:hover path,
+.copywrite svg:focus path {
+	fill: #81b3d2;
+}
+
+.copywrite svg:active path {
+	fill: #bdbbbc;
 }
