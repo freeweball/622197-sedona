@@ -606,7 +606,7 @@ input[type="radio"].visually-hidden {
 /* Сеточные стили catalog.html */
 
 .main-filter {
-	min-height: 303px;
+	min-height: 217px;
 	background-image: url("../img/filter-background.jpg");
 	background-repeat: no-repeat;
 	background-position: 100% 20%;
@@ -1012,4 +1012,114 @@ input::-webkit-input-placeholder {
 	text-align: center;
 	margin-top: auto;
 	margin-bottom: 0px;
+}
+
+
+/* Фильтр поиска отелей СЕДОНА */
+
+
+/* {
+	outline: 1px dashed red;
+}*/
+
+.hotel-filter {
+	width: 1200px;
+	min-height: 160px;
+	margin: auto;
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 72px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.options {
+	width: 240px;
+	min-height: 160px;
+}
+
+.options-infrostructure {
+	width: 240px;
+	margin-right: 0;
+}
+
+.options-type-home {
+	width: 288px;
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.options-price {
+	width: 328px;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.filter-column {
+	margin-top: 27px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	border: 0;
+}
+
+.filter-column-name {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 0;
+}
+
+.filter-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter-item {
+	min-height: 23px;
+	position: relative;
+	margin-top: 23px;
+}
+
+.filter-item input[type="checkbox"] {
+	display: none;
+}
+
+.filter-item-name {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #ffffff;
+	padding-left: 40px;
+}
+
+.filter-item-name:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 19px;
+	height: 19px;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+}
+
+.active:after {
+	content: "";
+	position: absolute;
+	left: 5px;
+	bottom: 10px;
+	z-index: 2;
+	width: 16px;
+	height: 7px;
+	border-bottom: 5px solid #ffffff;
+	border-left: 4px solid #ffffff;
+	transform: rotate(-45deg);
+	box-shadow: 0px 2px 1px 0px rgba(96,132,171,0.9);
+}
+
+.options-price {
+	box-sizing: border-box;
+	padding-left: 10px;
 }

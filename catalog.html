@@ -27,7 +27,52 @@
 	<main>
 		<h1 class="visually-hidden">Каталог отелей</h1>
 		<section class="main-filter">
-			<!--Здесь будет фильтр отелей-->
+			<form class="hotel-filter" action="https://echo.htmlacademy.ru" method="post">
+				<H1 class="visually-hidden">Форма поиска отелей</H1>
+				<section class="options options-infrostructure">
+					<fieldset class="filter-column">
+						<legend class="filter-column-name">Инфраструктура:</legend>
+						<ul class="filter-list">
+							<li class="filter-item">
+								<input type="checkbox" name="pool" checked>
+								<label class="filter-item-name active">Бассейн</label>
+							</li>
+							<li class="filter-item">
+								<input type="checkbox" name="parking">
+								<label class="filter-item-name">Парковка</label>
+							</li>
+							<li class="filter-item">
+								<input type="checkbox" name="Wi-Fi">
+								<label class="filter-item-name">Wi-Fi</label>
+							</li>
+						</ul>
+					</fieldset>
+				</section>
+				<section class="options options-type-home">
+					<fieldset class="filter-column">
+						<legend class="filter-column-name">Тип жилья:</legend>
+						<ul class="filter-list">
+							<li class="filter-item">
+								<input type="checkbox" name="hotel" checked>
+								<label class="filter-item-name active">Гостиница</label>
+							</li>
+							<li class="filter-item">
+								<input type="checkbox" name="motel" checked>
+								<label class="filter-item-name active">Мотель</label>
+							</li>
+							<li class="filter-item">
+								<input type="checkbox" name="apartment" checked>
+								<label class="filter-item-name active">Апартаменты</label>
+							</li>
+						</ul>
+					</fieldset>
+				</section>
+				<section class="options options-price">
+					<fieldset class="filter-column">
+						<legend class="filter-column-name">Стоимость в сутки (Р):</legend>
+					</fieldset>
+				</section>
+			</form>
 		</section>
 		<ul class="hotel-list">
 		 <li class="hotel">
