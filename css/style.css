@@ -290,7 +290,6 @@ input[type="radio"].visually-hidden {
 
 .main-header {
 	margin: 0;
-	position: relative;
 }
 
 .wrapper {
@@ -308,21 +307,13 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 }
 
-.main-nav::after {
-	content: "";
-	width: 1200px;
-	height: 57px;
-	background-image: url(../img/polygon.svg);
-	position: absolute;
-	bottom: 0;
-}
-
 .main-header-logo {
 	position: absolute;
 	order: 3;
 	align-self: center;
 	width: 140px;
 	height: 71px;
+	z-index: 1;
 }	
 
 .site-navigation {
@@ -356,12 +347,23 @@ input[type="radio"].visually-hidden {
 	align-items: center;
 	justify-content: flex-start;
 	min-height: 508px;
+	position: relative;
 }
 
 .intro img {
 	margin-top: 76px;
 	margin-bottom: 0;
 	padding: 0;
+}
+
+.intro .mask::after {
+	content: "";
+	width: 1200px;
+	height: 57px;
+	background-image: url(../img/polygon.svg);
+	position: absolute;
+	bottom: -1px;
+	left: 0;
 }
 
 .promo {
@@ -718,6 +720,15 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+.catalog-footer {
+	width: 1200px;
+	min-height: 120px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .heshtag {
