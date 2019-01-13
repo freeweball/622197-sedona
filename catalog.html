@@ -69,7 +69,19 @@
 				</section>
 				<section class="options options-price">
 					<fieldset class="filter-column">
-						<legend class="filter-column-name">Стоимость в сутки (Р):</legend>
+				      <legend class="filter-column-name">Стоимость в сутки (р):</legend>
+				      <div class="price-controls">
+				        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+				        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+				      </div>
+				      <div class="range-controls">
+				        <div class="scale">
+				          <div class="bar"></div>
+				        </div>
+				        <div class="range-toggle range-toggle-min"></div>
+				        <div class="range-toggle range-toggle-max"></div>
+				      </div>
+				      <button class="btn-transparent" type="submit">Показать</button>
 					</fieldset>
 				</section>
 			</form>
