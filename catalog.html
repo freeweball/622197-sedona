@@ -34,16 +34,16 @@
 						<legend class="filter-column-name">Инфраструктура:</legend>
 						<ul class="filter-list">
 							<li class="filter-item">
-								<input type="checkbox" name="pool" checked>
-								<label class="filter-item-name active">Бассейн</label>
+								<input id="filter-pool" type="checkbox" name="pool" checked>
+								<label for="filter-pool" class="filter-item-name active">Бассейн</label>
 							</li>
 							<li class="filter-item">
-								<input type="checkbox" name="parking">
-								<label class="filter-item-name">Парковка</label>
+								<input id="filter-parking" type="checkbox" name="parking">
+								<label for="filter-parking" class="filter-item-name">Парковка</label>
 							</li>
 							<li class="filter-item">
-								<input type="checkbox" name="Wi-Fi">
-								<label class="filter-item-name">Wi-Fi</label>
+								<input id="filter-wi-fi" type="checkbox" name="Wi-Fi">
+								<label for="filter-wi-fi" class="filter-item-name">Wi-Fi</label>
 							</li>
 						</ul>
 					</fieldset>
@@ -53,23 +53,23 @@
 						<legend class="filter-column-name">Тип жилья:</legend>
 						<ul class="filter-list">
 							<li class="filter-item">
-								<input type="checkbox" name="hotel" checked>
-								<label class="filter-item-name active">Гостиница</label>
+								<input id="filter-hotel" type="checkbox" name="hotel" checked>
+								<label for="filter-hotel" class="filter-item-name active">Гостиница</label>
 							</li>
 							<li class="filter-item">
-								<input type="checkbox" name="motel" checked>
-								<label class="filter-item-name active">Мотель</label>
+								<input id="filter-motel" type="checkbox" name="motel" checked>
+								<label for="filter-motel" class="filter-item-name active">Мотель</label>
 							</li>
 							<li class="filter-item">
-								<input type="checkbox" name="apartment" checked>
-								<label class="filter-item-name active">Апартаменты</label>
+								<input id="filter-apartment" type="checkbox" name="apartment" checked>
+								<label for="filter-apartment" class="filter-item-name active">Апартаменты</label>
 							</li>
 						</ul>
 					</fieldset>
 				</section>
 				<section class="options options-price">
 					<fieldset class="filter-column">
-				      <legend class="filter-column-name">Стоимость в сутки (р):</legend>
+				      <legend class="filter-column-name price-controls-name">Стоимость в сутки (р):</legend>
 				      <div class="price-controls">
 				        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
 				        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
@@ -117,7 +117,6 @@
 		</section>
 		<ul class="hotel-list">
 		 <li class="hotel">
-		 <div class="hotel-wrapper">
 			<a class="product-page"><img class="image-hotel" src="img/amara.jpg" width="135" height="90" alt="Фото отеля Amara resort & spa"></a>
 			<div class="content">
 				<h2 class="name-hotel"><a href="#">Amara resort & spa</a></h2>
@@ -135,10 +134,8 @@
 			<div class="rating">
 				<span class="hotel-rating-value">Рейтинг: 8,5</span>
 			</div>
-		 </div>
 		 </li>
 		 <li class="hotel">
-		 <div class="hotel-wrapper">
 			<a class="product-page"><img class="image-hotel" src="img/desert.jpg" width="135" height="90" alt="Фото отеля Desert quail inn"></a>
 			<div class="content">
 				<h2 class="name-hotel"><a href="#">Desert Quail inn</a></h2>
@@ -156,10 +153,8 @@
 			<div class="rating">
 				<span class="hotel-rating-value">Рейтинг: 8,9</span>
 			</div>
-		 </div>
 		 </li>
 		 <li class="hotel">
-		 <div class="hotel-wrapper">
 			<a class="product-page"><img class="image-hotel" src="img/villas.jpg" width="135" height="90" alt="Фото отеля Villas at poco diablo"></a>
 			<div class="content">
 				<h2 class="name-hotel"><a href="#">villas at poco diablo</a></h2>
@@ -177,7 +172,6 @@
 			<div class="rating">
 				<span class="hotel-rating-value">Рейтинг: 9,2</span>
 			</div>
-		 </div>
 		 </li>
 	  </ul>
 	</main>

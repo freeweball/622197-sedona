@@ -477,7 +477,7 @@ input[type="radio"].visually-hidden {
 	background-color: #759dc1;
 	background-image: url("../img/filter-background.jpg");
 	background-repeat: no-repeat;
-	background-position: 100% 20%;
+	background-position: 100% 16%;
 }
 
 .hotel-list {
@@ -501,35 +501,24 @@ input[type="radio"].visually-hidden {
 	background-color: #000000;
 }
 
-.hotel-wrapper {
-	display: flex;
-	width: 1056px;
-	min-height: 97px;
-	margin: auto auto 32px auto;
-
-	background-color: #ffffff;
-}
-
-.hotel:nth-child(3) {
-	border-top: 1px solid #e5e5e5;
-	border-bottom: 1px solid #e5e5e5;
-}
-
 .product-page {
 	width: 135px;
 	height: 90px;
 	margin-top: auto;
-	margin-bottom: 0;
+	margin-bottom: auto;
+	margin-left: 72px;
 	margin-right: 30px;
 }
 
 .content {
-	display: flex;
-	flex-direction: column;
 	width: 277px;
 	min-height: 92px;
-	margin-bottom: 0;
-	margin-top: auto;
+	margin-top: 24px;
+}
+
+.name-hotel {
+	margin-top: 0;
+	margin-bottom: 7px;
 }
 
 .content-wrapper {
@@ -539,16 +528,15 @@ input[type="radio"].visually-hidden {
 .content-info {
 	display: flex;
 	flex-direction: column;
-	margin-right: 8px;
+	margin-left: 0;
+	margin-right: 6px;
 }
 
 .content-reserve {
 	display: flex;
 	flex-direction: column;
-}
-
-.name-hotel {
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .name-hotel a {
@@ -575,11 +563,14 @@ input[type="radio"].visually-hidden {
 
 .content-wrapper {
 	margin: 0;
-	padding-top: 8px;
+	padding-top: 0px;
 }
 
 .type,
 .price {
+	margin-top: 0;
+	margin-bottom: 14px;
+
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
@@ -589,8 +580,10 @@ input[type="radio"].visually-hidden {
 
 .button-info {
 	display: inline-block;
-	margin-top: 13px;
-	padding: 5px 17px;
+	margin-top: 0px;
+	padding: 4px 17px;
+	padding-bottom: 3px;
+
 
 	text-align: center;
 	vertical-align: middle;
@@ -617,8 +610,9 @@ input[type="radio"].visually-hidden {
 
 .button-reserve {
 	display: inline-block;
-	margin-top: 13px;
-	padding: 5px 17px;
+	margin-top: 0px;
+	padding: 4px 17px;
+	padding-bottom: 3px;
 
 	text-align: center;
 	vertical-align: middle;
@@ -648,14 +642,16 @@ input[type="radio"].visually-hidden {
 	position: relative;
 
 	width: 241px;
-	margin-right: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 73px;
 	margin-left: auto;
 }
 
 .hotel-rating-value {
 	display: block;
 	width: 92px;
-	margin-top: 66px;
+	margin-top: 59px;
 	margin-left: auto;
 	padding: 6px 4px 4px 15px;
 	
@@ -673,10 +669,11 @@ input[type="radio"].visually-hidden {
 	top: 0;
 	right: 0;
 
-	width: 72px;
+	width: 90px;
 	height: 17px;
 
-	background-image: url(../img/star.svg);
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
 }
 
 .hotel:nth-child(2) .hotel-rating-value::before {
@@ -686,10 +683,11 @@ input[type="radio"].visually-hidden {
 	top: 0;
 	right: 0;
 
-	width: 54px;
+	width: 65px;
 	height: 17px;
 
-	background-image: url(../img/star.svg);
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
 }
 
 .hotel:nth-child(3) .hotel-rating-value::before {
@@ -699,10 +697,11 @@ input[type="radio"].visually-hidden {
 	top: 0;
 	right: 0;
 
-	width: 36px;
+	width: 40px;
 	height: 17px;
 
-	background-image: url(../img/star.svg);
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
 }
 
 .main-footer {
@@ -1153,6 +1152,7 @@ input::-webkit-input-placeholder {
 }
 
 .filter-column-name {
+	margin-bottom: 22px;
 	padding: 0;
 
 	font-size: 16px;
@@ -1161,8 +1161,12 @@ input::-webkit-input-placeholder {
 	color: #ffffff;
 }
 
+.price-controls-name {
+	margin-bottom: 2px;
+}
+
 .filter-list {
-	margin: 0;
+	margin-top: 0;
 	padding: 0;
 
 	list-style: none;
@@ -1172,7 +1176,7 @@ input::-webkit-input-placeholder {
 	position: relative;
 
 	min-height: 23px;
-	margin-top: 23px;
+	margin-bottom: 20px;
 }
 
 .filter-item input[type="checkbox"] {
@@ -1206,7 +1210,7 @@ input::-webkit-input-placeholder {
 
 	position: absolute;
 	left: 5px;
-	bottom: 10px;
+	bottom: 12px;
 	z-index: 2;
 
 	width: 16px;
@@ -1244,7 +1248,7 @@ input::-webkit-input-placeholder {
   position: relative;
 
   height: 36px;
-  margin-top: 6px;
+  margin-top: 5px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -1282,7 +1286,7 @@ input::-webkit-input-placeholder {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 64px;
 }
 
 .price-controls input {
